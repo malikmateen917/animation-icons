@@ -1,0 +1,82 @@
+body{
+    width:100%;
+    padding:10% 0;
+    margin:0;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color: #589167;
+    color: #f1f8e9;
+    font-size: 1.2em;
+  }
+  
+  
+  .social{
+    display : inline-block;
+    width : 56px;
+    height : 56px;
+    padding : 8px;
+    border-radius:100%;
+    background-color : white;
+    margin:10px;
+    transition: all 0.5s ease-in-out;
+  }
+  .social svg{
+    transition: transform 0.5s ease-out;
+  }
+  .social:hover{
+    border-radius:10%;
+    transform: rotate(405deg);
+  }
+  .social:hover svg{
+    transform: rotate(315deg);
+  }
+  
+  .facebook{
+          fill: #3b5998;
+  }
+  .facebook:hover{
+      fill:white;
+          background: #3b5998;
+  }
+  
+  .twitter{
+      fill: #4099FF;
+  }
+  .twitter:hover{
+    fill:white;
+      background:#4099FF;
+  }
+  .googleplus{
+      fill: #d34836;
+  }
+  
+  .googleplus:hover{
+    fill:white;
+      background:#d34836;
+  }
+  .stackoverflow{
+      fill:#FF9900;
+  }
+  .stackoverflow:hover{
+    fill:white;
+      background: #FF9900;
+  }
+  
+  .github{
+    fill:black;
+  }
+  .github:hover{
+    fill:white;
+      background:black;
+  }
+  
+  .codepen:hover{
+    background :#455A64;
+  }
+  
+  .codepen:hover line,.codepen:hover polyline,.codepen:hover polygon{
+    stroke:white;
+  }
